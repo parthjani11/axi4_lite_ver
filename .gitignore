@@ -1,0 +1,8 @@
+csrc/
+simv.daidir/
+simv.vdb/
+covReport/
+simv
+*.log
+ucli.key
+vc_hdrs.h
