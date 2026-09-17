@@ -27,7 +27,7 @@ class axi_base_test extends uvm_test;
   task run_phase(uvm_phase phase);
     phase.raise_objection(this);
     run();
-    phase.phase_done.set_drain_time(this,20);
+    phase.phase_done.set_drain_time(this,20000);
     phase.drop_objection(this);
   endtask
 
